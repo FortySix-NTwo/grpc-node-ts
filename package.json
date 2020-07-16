@@ -8,7 +8,7 @@
     "build": "npx tsc --skipLibCheck",
     "prod": "npx tsc --skipLibCheck && node ./dist/server/server.js",
     "dev": "ts-node src/server/server.ts",
-    "proto-gen": "./scripts/protoc.sh"
+    "gen:protoc": "./scripts/protoc.sh"
   },
   "dependencies": {
     "dotenv": "^8.2.0",

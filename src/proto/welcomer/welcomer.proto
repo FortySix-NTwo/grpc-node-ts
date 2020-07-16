@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package welcomer;
+
+service Welcomer {
+  rpc welcome (InputRequest) returns (OutputResponse);
+}
+
+message InputRequest {
+  string name = 1;
+}
+
+message OutputResponse {
+  string message = 1;
+}

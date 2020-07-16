@@ -2,7 +2,7 @@ import 'dotenv/config';
 import * as grpc from 'grpc';
 
 import { protoIndex } from '../proto';
-import greeterHandler from '../handlers/greeter';
+import welcomerHandler from '../handlers/welcomer';
 
 protoIndex();
 
@@ -12,7 +12,7 @@ const host: string = process.env.HOST;
 type StartServerType = () => void;
 export const startServer: StartServerType = (): void => {
   const server: grpc.Server = new grpc.Server();
-  server.addService(greeterHandler.service, greeterHandler.handler);
+  server.addService(welcomerHandler.service, welcomerHandler.handler);
   server.bindAsync(`${host}:${port}`, grpc.ServerCredentials.createInsecure(), (err: Error, port: number) => {
     if (err != null) {
       return console.error(err);
