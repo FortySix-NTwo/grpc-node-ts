@@ -1,14 +1,14 @@
 # gRPC in TypeScript
 
-![logo.png](./resources/E63BFEB9F9CFA241802ABA85B92DCBE2.png =500x)
+![logo.png](./resources/E63BFEB9F9CFA241802ABA85B92DCBE2.png =500x500)
 
 ## Overview
 
-![lifecycle.png](./resources/35AD642F223D5118235DE7FA7BEC1CE1.png =800x)
+![lifecycle.png](./resources/35AD642F223D5118235DE7FA7BEC1CE1.png =800x800)
 
-![lang.png](./resources/3F851DF1A5F835274A03646432C171F4.png =800x)
+![lang.png](./resources/3F851DF1A5F835274A03646432C171F4.png =800x800)
 
-![benifits.png](./resources/15FCE1AAA0B397693F4EA3629C2EF69E.png =800x)
+![benifits.png](./resources/15FCE1AAA0B397693F4EA3629C2EF69E.png =800x800)
 
 ### Setting-Up Environment
 
