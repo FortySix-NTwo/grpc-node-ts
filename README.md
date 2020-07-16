@@ -1,14 +1,14 @@
 # gRPC in TypeScript
 
-![logo.png](./resources/E63BFEB9F9CFA241802ABA85B92DCBE2.png =500x500)
+![logo.png](resources/E63BFEB9F9CFA241802ABA85B92DCBE2.png)
 
 ## Overview
 
-![lifecycle.png](./resources/35AD642F223D5118235DE7FA7BEC1CE1.png =800x800)
+![lifecycle.png](resources/35AD642F223D5118235DE7FA7BEC1CE1.png)
 
-![lang.png](./resources/3F851DF1A5F835274A03646432C171F4.png =800x800)
+![lang.png](resources/3F851DF1A5F835274A03646432C171F4.png)
 
-![benifits.png](./resources/15FCE1AAA0B397693F4EA3629C2EF69E.png =800x800)
+![benifits.png](resources/15FCE1AAA0B397693F4EA3629C2EF69E.png)
 
 ### Setting-Up Environment
 
@@ -229,6 +229,7 @@ sudo chmod +x ./scripts/gen_protoc.sh
 
 lets finish up our setup by creating the necessary files and folders as follows:
 
+```
 |── ./dist/
 |
 ├── ./node_modules/
@@ -260,6 +261,7 @@ lets finish up our setup by creating the necessary files and folders as follows:
 ├── ./tsconfig.json
 |
 └── ./yarn.lock
+```
 
 > We are left to write the code for both the server.ts file, as well, as the welcomer.ts handler file as follows:
 
