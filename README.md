@@ -228,6 +228,7 @@ sudo chmod +x ./scripts/gen_protoc.sh
 
 lets finish up our setup by creating the necessary files and folders as follows:
 
+```
 |── ./dist/
 |
 ├── ./node_modules/
@@ -259,6 +260,7 @@ lets finish up our setup by creating the necessary files and folders as follows:
 ├── ./tsconfig.json
 |
 └── ./yarn.lock
+```
 
 > We are left to write the code for both the server.ts file, as well, as the welcomer.ts handler file as follows:
 
