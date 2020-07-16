@@ -26,11 +26,10 @@ function deserialize_greeter_HelloResponse(buffer_arg) {
   return greeter_pb.HelloResponse.deserializeBinary(new Uint8Array(buffer_arg));
 }
 
-
 // The greeting service definition.
-var GreeterService = exports.GreeterService = {
+var GreeterService = (exports.GreeterService = {
   // Sends a greeting
-sayHello: {
+  sayHello: {
     path: '/greeter.Greeter/SayHello',
     requestStream: false,
     responseStream: false,
@@ -41,6 +40,6 @@ sayHello: {
     responseSerialize: serialize_greeter_HelloResponse,
     responseDeserialize: deserialize_greeter_HelloResponse,
   },
-};
+});
 
 exports.GreeterClient = grpc.makeGenericClientConstructor(GreeterService);
