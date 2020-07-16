@@ -1,10 +1,6 @@
 # gRPC in TypeScript
 
-<center>
-
 ![logo.png](resources/E63BFEB9F9CFA241802ABA85B92DCBE2.png)
-
-</center>
 
 ## Overview
 
